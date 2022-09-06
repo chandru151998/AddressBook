@@ -10,13 +10,13 @@
 
             //ability to creating contacts
             Contact contact1 = new Contact();
-            contact1.firstName = "Vidhya";
-            contact1.lastName = "Mundhe";
-            contact1.address = "Jalna Maharashtra";
+            contact1.firstName = "Chandru";
+            contact1.lastName = "Kalahalamath";
+            contact1.address = "Gadag Karnataka";
             contact1.phone = 1234567890;
-            contact1.city = "Jalna";
-            contact1.state = "Maharashtra";
-            contact1.zipcode = 413515;
+            contact1.city = "Gadag";
+            contact1.state = "Karnataka";
+            contact1.zipcode = 582103;
             contactList.Add(contact1);
 
         }
