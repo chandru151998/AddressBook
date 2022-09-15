@@ -13,14 +13,14 @@ namespace AddressBookADO.NET_TEST
         {
             //passing data for updating
             AddressBookContactDetails contactDetails = new AddressBookContactDetails();
-            contactDetails.firstName = "vetri";
-            contactDetails.lastName = "Velan";
-            contactDetails.address = "Anbu Nagar";
-            contactDetails.city = "hosur";
-            contactDetails.state = "tamilnadu";
-            contactDetails.zip = 635109;
-            contactDetails.phoneNo = 8883380120;
-            contactDetails.eMail = "vetrivel.kce@gmail.com";
+            contactDetails.firstName = "Chandru";
+            contactDetails.lastName = "Kalahalamath";
+            contactDetails.address = "KSRTC Colony";
+            contactDetails.city = "Gadag";
+            contactDetails.state = "Karnataka";
+            contactDetails.zip = 582103;
+            contactDetails.phoneNo = 7406140157;
+            contactDetails.eMail = "chandru151998@gmail.com";
             contactDetails.addressBookName = "B";
             //passing data to update method in address book operations
             AddressBookOperations addressBookOperations = new AddressBookOperations();
@@ -36,8 +36,8 @@ namespace AddressBookADO.NET_TEST
             AddressBookContactDetails actual = UpdateContactDetails();
             AddressBookContactDetails contactDetails = new AddressBookContactDetails();
             //passing data to get updated contact details
-            contactDetails.firstName = "vetri";
-            contactDetails.lastName = "velan";
+            contactDetails.firstName = "Chandru";
+            contactDetails.lastName = "Kalahalamath";
             contactDetails.addressBookName = "B";
             AddressBookOperations addressBookOperations = new AddressBookOperations();
             //getting expected data from address book operations -getting updated details
@@ -57,7 +57,7 @@ namespace AddressBookADO.NET_TEST
             //creating list for expected output
             List<AddressBookContactDetails> contactDetailsExpected = new List<AddressBookContactDetails>();
             //adding data
-            contactDetailsExpected.Add(new AddressBookContactDetails { firstName = "vetri", lastName = "Velan", address = "Anbu Nagar", city = "hosur", state = "tamilnadu", zip = 635109, phoneNo = 8883380120, eMail = "vetrivel.kce@gmail.com" });
+            contactDetailsExpected.Add(new AddressBookContactDetails { firstName = "Chandru", lastName = "Kalahalamath", address = "KSRTC Colony", city = "Gadag", state = "Karnataka", zip = 582103, phoneNo = 7406140157, eMail = "chandru151998@gmail.com" });
             //instatiating object for address book operations
             AddressBookOperations addressBookOperations = new AddressBookOperations();
             //getting actual contact list from address book operations-getting contact details from particular date range
@@ -76,7 +76,7 @@ namespace AddressBookADO.NET_TEST
             //creating list for expected output
             List<AddressBookContactDetails> contactDetailsExpected = new List<AddressBookContactDetails>();
             //adding data
-            contactDetailsExpected.Add(new AddressBookContactDetails { firstName = "chandru", lastName = "kalamath", address = "Chanda Nagar", city = "gadag", state = "banglore", zip = 734251, phoneNo = 9597959938, eMail = "chandru1595@gmail.com" });
+            contactDetailsExpected.Add(new AddressBookContactDetails { firstName = "vetri", lastName = "velan", address = "Chanda Nagar", city = "hosur", state = "Tamilnadu", zip = 734251, phoneNo = 9597959938, eMail = "vetrivelan@gmail.com" });
             //instatiating object for address book operations
             AddressBookOperations addressBookOperations = new AddressBookOperations();
             //getting actual contact list from address book operations-getting contact details from particular date range
@@ -93,7 +93,7 @@ namespace AddressBookADO.NET_TEST
             //creating list for expected output
             List<AddressBookContactDetails> contactDetailsExpected = new List<AddressBookContactDetails>();
             //adding data
-            contactDetailsExpected.Add(new AddressBookContactDetails { firstName = "vetri", lastName = "Velan", address = "Anbu Nagar", city = "hosur", state = "tamilnadu", zip = 635109, phoneNo = 8883380102, eMail = "vetrivel.kce@gmail.com" });
+            contactDetailsExpected.Add(new AddressBookContactDetails { firstName = "Chandru", lastName = "Kalahalamath", address = "KSRTC Colony", city = "Gadag", state = "Karnataka", zip = 582103, phoneNo = 7406140157, eMail = "chandru151998@gmail.com" });
 
             //instatiating object for address book operations
             AddressBookOperations addressBookOperations = new AddressBookOperations();
